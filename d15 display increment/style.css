@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Open+Sans:ital,wght@0,500;0,700;1,300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8e44ad;
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container.item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px auto;
+}
+
+.container-text {
+    font-size: 24px;
+}
+
+.counter-num {
+    font-size: 52px
+}
+
+@media(max-width:480px) {
+    .container {
+        flex-direction: column;
+    }
+}
