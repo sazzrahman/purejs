@@ -48,4 +48,4 @@ function binarySearch(arr, num) {
 }
 
 
-console.log(binarySearch([1, 2, 3], 2))
+// console.log(binarySearch([1, 2, 3], 2))
